@@ -1,0 +1,25 @@
+{
+    "acceptance_tests": {
+        "skip_ssl_validation": true,
+        "use_http": true
+    },
+    "env": {
+        "api": "api.local.pcfdev.io",
+        "apps_domain": "local.pcfdev.io",
+        "password": "admin",
+        "user": "admin"
+    },
+    "smoke_test": {
+        "backend": "diego",
+        "cleanup": true,
+        "enable_windows_tests": false,
+        "logging_app": "",
+        "org": "CF-SMOKE-ORG",
+        "runtime_app": "",
+        "skip_ssl_validation": true,
+        "space": "CF-SMOKE-SPACE",
+        "suite_name": "CF_SMOKE_TESTS",
+        "use_existing_org": false,
+        "use_existing_space": false
+    }
+}
